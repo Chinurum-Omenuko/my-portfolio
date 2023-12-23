@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+header
+{
+    min-width: 100%;
+    min-height: 5rem;
+    background-color: #0b0e13e8;
+    position: fixed;
+}
+
+a
+{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: larger;
+}
+
+nav
+{
+    margin: 0 30px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: inherit;
+}
+
+.nav-items a
+{
+    padding: 0 50px;
+}
+
+
+button
+{
+    background-color: blue;
+    padding: .8em;
+    border-radius: .5cap;
+}
