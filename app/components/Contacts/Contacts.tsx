@@ -1,7 +1,7 @@
 export default function Contacts() {
     return(
-        <section className="h-screen bg-black grid place-items-center">
-            <div className="contacts-container h-4/5 w-4/5 grid text-center">
+        <section className="grid h-screen bg-black place-items-center">
+            <div className="grid w-4/5 text-center contacts-container h-4/5">
                 <div className="title">
                     <h2>Contacts</h2>
                 </div>
