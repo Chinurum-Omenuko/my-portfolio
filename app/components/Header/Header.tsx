@@ -2,7 +2,7 @@ import './HeaderStyle.css'
 
 export default function Header() {
     return (
-    <header>
+    <header className="z-50">
         <nav>
             <div className="logo">
                 <a href="/">Chinurum Omenuko</a>
