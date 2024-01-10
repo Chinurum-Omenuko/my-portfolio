@@ -4,6 +4,7 @@ export default function HomeLanding() {
         <div className="flex place-items-center relative top-48">
             <h1 className="text-7xl z-10">My Portfolio</h1>
         </div>
+        <h2>By: Chinurum Omenuko</h2>
     </main>
     )
 }

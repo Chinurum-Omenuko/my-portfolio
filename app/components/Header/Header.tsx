@@ -8,18 +8,18 @@ export default function Header() {
                 <a href="/">C.O</a>
             </div>
 
-            <div className="hidden nav-items">
-                <a href="">About Me</a>
-                <a href="">Projects</a>
-                <a href="">Resume</a>
-                <a href="">Contacts</a>
+            <div className="hidden nav-items lg:block">
+                <a href="/">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#resume">Resume</a>
+                <a href="#contacts">Contacts</a>
             </div>
 
-            <div className="hidden github">
+            <div className="hidden github lg:block">
                 <button><a href="https://github.com/Chinurum-Omenuko">My Github</a></button>
             </div>
 
-            <div className="flex flex-row justify-end drawer drawer-end">
+            <div className="flex flex-row justify-end drawer drawer-end lg:hidden">
                 <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content">
                     <label htmlFor="my-drawer-4" className="btn btn-primary drawer-button">

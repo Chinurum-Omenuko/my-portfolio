@@ -1,0 +1,31 @@
+section{
+    display: grid;
+}
+
+h2{
+    margin-top: 3em;
+    display: grid;
+    max-height: 5vh;
+    place-items: center;
+}
+
+.projects{
+    margin-top: -10em;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    border: solid 2px white;
+    gap: 20em;
+}
+
+.projects div{
+    border: solid 2px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+img{
+    opacity: 0.8;
+}
