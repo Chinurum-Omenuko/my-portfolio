@@ -8,11 +8,11 @@ export default function Contacts() {
 
                 <div className="contacts">
                     <div>
-                        <img src="" alt="" />
-                        <a href="">Email: chinuomenu@gmail.com</a>
+                        
+                        <a href="mailto:chinuomenu@gmail.com">Email: chinuomenu@gmail.com</a>
                     </div>
                     <div>
-                        <img src="" alt="" />
+                        
                         <a href="https://www.linkedin.com/in/chinurum-omenuko-612a161a3/">Linkedin: Chinurum Omenuko</a>
                     </div>
                 </div>
