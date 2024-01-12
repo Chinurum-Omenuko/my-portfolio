@@ -9,7 +9,7 @@ export default function Header() {
             </div>
 
             <div className="hidden nav-items lg:block">
-                <a href="/">About Me</a>
+                
                 <a href="#projects">Projects</a>
                 <a href="#resume">Resume</a>
                 <a href="#contacts">Contacts</a>
@@ -33,10 +33,11 @@ export default function Header() {
                 <div className="drawer-side">
                     <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
                     <ul className="flex flex-col items-center min-h-full p-4 justify-evenly menu w-80 bg-base-200 text-base-content">
-                        <li><a href="">About Me</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Resume</a></li>
-                        <li><a href="">Contacts</a></li>
+                        <li><a href="https://github.com/Chinurum-Omenuko">GitHub</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#conatcts">Contacts</a></li>
+                        
                     </ul>
                 </div>
             </div>

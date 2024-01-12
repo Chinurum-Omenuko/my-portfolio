@@ -12,7 +12,6 @@ export default function Home() {
     <div className="pagecontainer">
       <Header />
       <HomeLanding />
-      <About />
       <Title />
       <Projects />
       <Resume />
