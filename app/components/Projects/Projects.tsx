@@ -16,18 +16,6 @@ export default function Projects() {
             </a>
             <p>On Point Drivers Driving school</p>
         </div>
-        <div>
-            <Image className="h-auto max-w-full rounded-lg" src="https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg?cs=srgb&dl=pexels-alleksana-4271927.jpg&fm=jpg&_gl=1*xqyztl*_ga*NzgyNDIzMjAxLjE3MDQ4ODE4Njc.*_ga_8JE65Q40S6*MTcwNDg4MTg2Ny4xLjEuMTcwNDg4MTkxMC4wLjAuMA.." alt="" width={500} height={300} />
-        </div>
-        <div>
-            <Image className="h-auto max-w-full rounded-lg" src="https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg?cs=srgb&dl=pexels-alleksana-4271927.jpg&fm=jpg&_gl=1*xqyztl*_ga*NzgyNDIzMjAxLjE3MDQ4ODE4Njc.*_ga_8JE65Q40S6*MTcwNDg4MTg2Ny4xLjEuMTcwNDg4MTkxMC4wLjAuMA.." alt="" width={500} height={300} />
-        </div>
-        <div>
-            <Image className="h-auto max-w-full rounded-lg" src="https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg?cs=srgb&dl=pexels-alleksana-4271927.jpg&fm=jpg&_gl=1*xqyztl*_ga*NzgyNDIzMjAxLjE3MDQ4ODE4Njc.*_ga_8JE65Q40S6*MTcwNDg4MTg2Ny4xLjEuMTcwNDg4MTkxMC4wLjAuMA.." alt="" width={500} height={300} />
-        </div>
-        <div>
-            <Image className="h-auto max-w-full rounded-lg" src="https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg?cs=srgb&dl=pexels-alleksana-4271927.jpg&fm=jpg&_gl=1*xqyztl*_ga*NzgyNDIzMjAxLjE3MDQ4ODE4Njc.*_ga_8JE65Q40S6*MTcwNDg4MTg2Ny4xLjEuMTcwNDg4MTkxMC4wLjAuMA.." alt="" width={500} height={300} />
-        </div>
     </div>
 
     )

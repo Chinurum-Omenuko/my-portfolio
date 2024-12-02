@@ -5,18 +5,12 @@ export default function Header() {
     <header className="z-50">
         <nav className=''>
             <div className="logo">
-                <a href="/">C.O</a>
+                <a href="/">Chinurum Omenuko</a>
             </div>
 
             <div className="hidden nav-items lg:block">
+                <h1>Full-stack web developer</h1>
                 
-                <a href="#projects">Projects</a>
-                <a href="#resume">Resume</a>
-                <a href="#contacts">Contacts</a>
-            </div>
-
-            <div className="hidden github lg:block">
-                <button><a href="https://github.com/Chinurum-Omenuko">My Github</a></button>
             </div>
 
             <div className="flex flex-row justify-end drawer drawer-end lg:hidden">
@@ -37,6 +31,8 @@ export default function Header() {
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#resume">Resume</a></li>
                         <li><a href="#conatcts">Contacts</a></li>
+                        <li><a href="https://github.com/Chinurum-Omenuko">GitHub</a></li>
+
                         
                     </ul>
                 </div>

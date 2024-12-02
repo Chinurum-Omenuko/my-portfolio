@@ -1,11 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
+.questrial-regular {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,17 +23,25 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-  background-image: url(../public/grid.svg); 
+html{
+  background-color: black;
+  font-family: 'Questrial';
+  font-weight: 300;
+  
+}
+
+body{
+  background-color: black;
+  padding: 20px 20px;
 }
 
 a{
   list-style: none;
+}
+
+#bottom-text{
+  color: rgb(188, 188, 188);
+  text-align: center;
+  margin-top: 10px;
+  font-size: x-small;
 }

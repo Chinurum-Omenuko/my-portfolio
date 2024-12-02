@@ -1,10 +1,19 @@
+import ContactMe from "../Tiles/ContactMe"
+import Picture from "../Tiles/Picture"
+import ResumeTile from "../Tiles/ResumeTile"
+import Search from "../Tiles/Search"
+import Summary from "../Tiles/Summary"
+import Tag from "../Tiles/Tag"
+import "./HomeLanding.css"
 export default function HomeLanding() {
     return(
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <div className="flex place-items-center relative top-48">
-            <h1 className="text-7xl z-10">My Portfolio</h1>
-        </div>
-        <h2>By: Chinurum Omenuko</h2>
+    <main className="">
+        <Tag />
+        <Picture />
+        <Search />
+        <Summary />
+        <ContactMe />
+        <ResumeTile />
     </main>
     )
 }

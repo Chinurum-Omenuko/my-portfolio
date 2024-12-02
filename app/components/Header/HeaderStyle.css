@@ -4,30 +4,27 @@ header
     min-width: 100%;
     min-height: 5rem;
     background-color: rgba(11, 12, 15, 0.797);
-    position: fixed;
-    backdrop-filter: blur(60px);
 }
 
-a
-{
-    font-family: 'Rajdhani', sans-serif;
-    font-size: larger;
-}
+
 
 nav
 {
-    margin: 0 30px;
+    
     padding: 0 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     min-height: inherit;
+    background-color: #fefae0;
+    border-radius: 1cap;
+    margin-bottom: 20px;
 }
 
 .nav-items a
 {
-    padding: 0 50px;
+    padding: 0 20px;
 }
 
 

@@ -8,14 +8,12 @@ import Projects from './components/Projects/Projects'
 import Title from './components/Projects/Title'
 
 export default function Home() {
+  
   return (
     <div className="pagecontainer">
       <Header />
       <HomeLanding />
-      <Title />
-      <Projects />
-      <Resume />
-      <Contacts />
+      <p id="bottom-text" suppressHydrationWarning={true}>Made with Next.JS, Typescript and CSS &copy;<script>document.write(new Date().getFullYear());</script> Chinurum Omenuko.</p>
     </div>
 
   )
