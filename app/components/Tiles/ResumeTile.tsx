@@ -7,7 +7,7 @@ export default function ResumeTile() {
                 <h3>Resume</h3>
             </div>
             <div className="resume-img-container h-28 border border-r-emerald-700">
-                <a href="https://drive.google.com/file/d/1fiRIyTyOhi3_m2fgdm-cx0Lz1iebRVfp/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1fiRIyTyOhi3_m2fgdm-cx0Lz1iebRVfp/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <img src={resume.src} alt="" className='object-cover' id='resume-pic'/>
                 </a>
             </div>

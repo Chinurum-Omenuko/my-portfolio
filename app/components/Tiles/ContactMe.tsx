@@ -11,7 +11,7 @@ export default function ContactMe() {
     const changeQuestion = () => {
         setIndex(prevIndex => prevIndex === 0 ? 1 : 0)
     }
-    
+
     useEffect(() => {
         let timerId = setInterval(changeQuestion, 5000);
 
@@ -22,13 +22,13 @@ export default function ContactMe() {
         <section className="item5 item grid-col-span-2 flex flex-col justify-between cursor-auto group-hover:cursor-grab">
             <div className="questions flex flex-row justify-between">
                 <h4>{questions[index]}</h4>
-                
-                <a href="mailto:chinuomenu@gmail.com">
+
+                <a href="mailto:chinuomenu@gmail.com" target="_blank" rel="noopener noreferrer">
                     <img src={arrow.src} alt=""
                         className="arrow-animation"
                         style={{ transformOrigin: 'center center' }} />
                 </a>
-            
+
             </div>
             <div className="contactme">
                 <h2 className="text-left text-4xl font-normal">Contact me</h2>
